@@ -60,6 +60,15 @@ View highlights in a [taskbook board](https://raw.githubusercontent.com/klaussin
 
 ## Install
 
+<<<<<<< HEAD
+=======
+### Yarn
+
+```bash
+yarn global add taskbook
+```
+
+>>>>>>> 21dcaddcca93f70fde70f4b2f398d2537efbff94
 ### NPM
 
 ```bash
@@ -355,12 +364,22 @@ For more info on how to contribute to the project, please read the [contributing
 
 ## Related
 
+<<<<<<< HEAD
 - [signale](https://github.com/klaussinani/signale) - Hackable console logger
 - [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts
+=======
+- [signale](https://github.com/klaussinani/signale) - Highly configurable logging utility
+- [qoa](https://github.com/klaussinani/qoa) - Minimal interactive command-line prompts
+- [hyperocean](https://github.com/klaussinani/hyperocean) - Deep oceanic blue Hyper terminal theme
+>>>>>>> 21dcaddcca93f70fde70f4b2f398d2537efbff94
 
 ## Team
 
 - Klaus Sinani [(@klaussinani)](https://github.com/klaussinani)
+<<<<<<< HEAD
+=======
+- Mario Sinani [(@mariosinani)](https://github.com/mariosinani)
+>>>>>>> 21dcaddcca93f70fde70f4b2f398d2537efbff94
 
 ## License
 
