@@ -69,5 +69,9 @@ module.exports.flags = {
   },
   clear: {
     type: 'boolean'
+  },
+  test: {
+    type: 'boolean',
+    alias: 'j'
   }
 }

@@ -5,6 +5,7 @@ const Task = require('./task');
 const Note = require('./note');
 const Storage = require('./storage');
 const render = require('./render');
+const connect = require('./connect')
 
 class Taskbook {
   constructor() {
@@ -133,11 +134,7 @@ class Taskbook {
       return notes++;
     });
 
-<<<<<<< HEAD
     const total = complete + pending;
-=======
-    const total = complete + pending + inProgress;
->>>>>>> 21dcaddcca93f70fde70f4b2f398d2537efbff94
     const percent = (total === 0) ? 0 : Math.floor(complete * 100 / total);
 
     return {percent, complete, inProgress, pending, notes};
@@ -577,6 +574,10 @@ class Taskbook {
     }
 
     this.deleteItems(ids);
+  }
+
+  test () {
+    return connect.connect()
   }
 }
 
