@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = `
   Usage
@@ -45,4 +45,4 @@ module.exports = `
       $ tb --task @coding Improve documentation
       $ tb --task Make some buttercream
       $ tb --timeline
-`;
+`
